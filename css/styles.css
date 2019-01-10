@@ -36,3 +36,17 @@ div h3 {
 div p span {
   font-style: italic;
   }
+
+@media screen and (max-width: 768px) and (min-width: 600px){
+  body {
+    background-image: url("../img/cat.jpeg");
+    color: white;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body {
+    background-image: url("../img/fox.jpeg");
+    color: teal;
+  }
+}
